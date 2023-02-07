@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pokemon Home Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        *{
+            margin: 0px;
+        }
+        a{
+            text-decoration: none;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        .floatClass{
+            float:left;
+        }
+        .flex_class{
+            display: flex;
+        }
+        .mew{
+            height: 100px;
+            width: 100px;
+            background: red;
+        }
+        .floatClass_two{
+            float: right;
+        }
+        /* p{
+            clear: left;
+        } */
+         .image_section{
+            background-image: url('./img/Texture.png'),url('./img/Background.png');
+            background-position: none;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 10px 40px;
+        }
+        .logo{
+            display: block;
+            text-align: right;
+            padding:75px 250px 75px 0px ;
+        }
+        .img_section_one{
+            height: 306px;
+            width: 238px;
+            background: white;
+            padding-top: 15px;
+            border-radius: 10px;
+            margin-bottom:100px ;
+        }
+       .img_section_one:hover{
+             background: #3383C8;
+             cursor: pointer;
+         }
+         .img_section_one:hover h4{
+            color:white;
+         }
+        
+        .img_container{
+        height: 213px;
+        width: 202px;
+        margin: 0px auto;
+        border-radius: 5px;
+        padding-top: 20px;
+        padding-left:10px ;
+        background: #F2F2F2;
+        }
+        .bottom_items{
+            padding-left: 20px;
+            padding-top: 8px;
+        }
+        .bottom_buttons{
+            padding:10px 0px ;
+        }
+        .buttons{
+            padding: 5px 15px;
+            border-radius: 5px;
+            margin-right:10px ;
+            border:none;
+        }
+        .one{
+            background: #9BCC50;
+            color:white;
+        }
+        .two{
+            background: #B97FC9;
+            color:white;
+        }
+        .one_fire{
+            background: #FC7C23;
+            color:white;
+        }
+        .one_water{
+            background: #4592C4;
+            color:white;
+        }
+        .flex_cls{
+            display: flex;
+            justify-content:space-between;
+        }
+        .img_hover_size:hover{
+            width:auto;
+            height: 190px;
+        }
+        .img_hover_size_three:hover{
+            width:auto;
+            height: 180px;
+        }
+        .left_div{
+            width:10%;
+            height:100vh;
+            background: url('./img/Left.png');
+        }
+        .middle_div{
+            width:80%;
+            height:100vh;
+          
+        }
+        .right_div{
+            width:10%;
+            height: 100vh;
+            background-position: none;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background: url('./img/Left.png');
+        }
+        .heading_div{
+            text-align: center;
+            position: relative;
+            color:#257BC4;
+            padding: 60px 0px;
+        }
+        .heading{
+            position: absolute;
+            top: 92px;
+            left: 334px;
+            font-size: 32px;
+        }
+        .left_pera_div{
+            width: 60%;
+            height: 100vh;
+            padding-left:10px ;
+            margin-right: 20px;
+            font-size: 16px;
+            font-weight: 500;
+/*            background: red;*/
+            text-align: left;
+            display: flex;
+        }
+        .right_pera_div{
+            width: 40%;
+            height: 100vh;
+/*            background: yellow;*/
+        }
+        .display_inline{
+            float: left;
+            padding-right: 10px;
+        }
+        .display_inline_two{
+            float:right;
+            padding: 10px 10px;
+        }
+        .div_gap{
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body >
+      <section class="image_section">
+            <!-- Logo  -->
+        <div class="logo">
+               <img src="./img/Logo.png">
+        </div>
+        <!-- Logo Ends and Image Section Starts-->
+        <div class="flex_cls">
+            <!-- First Image -->
+             <a href="./nextPage.html">
+                 <div class="img_section_one" >
+                <div class="img_container">
+                    <img class="img_hover_size" src="./img/Test_two.PNG">
+                </div>
+                 <div class="bottom_items">
+                    <h4>Balbasaur</h4>
+                <div class="bottom_buttons"> 
+                    <button class="buttons one">Grass</button>
+                    <button class="buttons two">Position</button>
+                </div>
+                </div>
+             </a>
+            </div>
+            <!-- Second Image -->
+            <a href="./nextPage.html">
+                <div class="img_section_one">
+                <div class="img_container">
+                    <img class="img_hover_size" src="./img/Test_one.PNG">
+                </div>
+                <div class="bottom_items">
+                    <h4>lvysaur</h4>
+                <div class="bottom_buttons"> 
+                    <button class="buttons one">Grass</button>
+                    <button class="buttons two">Position</button>
+                </div>
+                </div>
+            </div>
+            </a>
+              <!-- Third Image -->
+              <a href="./nextPage.html">
+            <div class="img_section_one">
+                <div class="img_container">
+                    <img class="img_hover_size_three" src="./img/Test_three.PNG">
+                </div>
+                <div class="bottom_items">
+                    <h4>Venusaur</h4>
+                <div class="bottom_buttons"> 
+                    <button class="buttons one">Grass</button>
+                    <button class="buttons two">Position</button>
+                </div>
+                </div>
+            </div>
+              </a>
+
+            <!-- Fourth Image -->
+            <a href="./nextPage.html">
+            <div class="img_section_one">
+                <div class="img_container">
+                    <img class="img_hover_size" src="./img/Test_four.PNG">
+                </div>
+                <div class="bottom_items">
+                    <h4>Charmander</h4>
+                <div class="bottom_buttons"> 
+                    <button class="buttons one_fire">Fire</button>
+                </div>
+                </div>
+            </div>
+            </a>
+             <!-- Fifth Image -->
+           <a href="./nextPage.html">
+                <div class="img_section_one">
+                <div class="img_container">
+                    <img class="img_hover_size" src="./img/Test_five.PNG">
+                </div>
+                <div class="bottom_items">
+                    <h4>Charmeleon</h4>
+                <div class="bottom_buttons"> 
+                    <button class="buttons one_fire">Fire</button>
+                </div>
+                </div>
+            </div>
+           </a>
+        </div>
+
+        <!-- Second Image Section  -->
+
+        <div class="flex_cls">
+            <!-- Sixth Image -->
+            <a href="./nextPage.html">
+              <div class="img_section_one">
+                <div class="img_container">
+                    <img class="img_hover_size" src="./img/image_six.PNG">
+                </div>
+                 <div class="bottom_items">
+                    <h4>Carizard</h4>
+                <div class="bottom_buttons"> 
+                     <button class="buttons one_fire">Fire</button>
+                    <button class="buttons one_water">Flying</button>
+                </div>
+                </div>
+            </div>
+            </a>
+            <!-- Seventh Image -->
+           <a href="./nextPage.html">
+            <div class="img_section_one">
+                <div class="img_container">
+                    <img class="img_hover_size" src="./img/image_seven.PNG">
+                </div>
+                <div class="bottom_items">
+                    <h4>Squirtle</h4>
+                <div class="bottom_buttons"> 
+                    <button class="buttons one_water">Water</button>
+                </div>
+                </div>
+            </div>
+           </a>
+              <!-- Eight Image -->
+           <a href="./nextPage.html"> 
+            <div class="img_section_one">
+                <div class="img_container">
+                    <img class="img_hover_size_three" src="./img/image_eight.PNG">
+                </div>
+                <div class="bottom_items">
+                    <h4>Wartortole</h4>
+                <div class="bottom_buttons"> 
+                    <button class="buttons one_water">Water</button>
+                </div>
+                </div>
+            </div>
+           </a>
+            <!-- Ninth Image -->
+          <a href="./nextPage.html">
+            <div class="img_section_one">
+                <div class="img_container">
+                    <img class="img_hover_size" src="./img/image_nine.PNG">
+                </div>
+                <div class="bottom_items">
+                    <h4>Blastoise</h4>
+                <div class="bottom_buttons"> 
+                    <button class="buttons one_water">Fire</button>
+                </div>
+                </div>
+            </div>
+          </a>
+             <!-- Tenth Image -->
+        <a href="./nextPage.html">
+            <div class="img_section_one">
+                <div class="img_container">
+                    <img class="img_hover_size" src="./img/image_ten.PNG">
+                </div>
+                <div class="bottom_items">
+                    <h4>Caterpir</h4>
+                <div class="bottom_buttons"> 
+                    <button class="buttons one">Bug</button>
+                </div>
+                </div>
+            </div>
+        </a>
+        </div>
+      </section>
+      <section class="info_section">
+         <div class="flex_class">
+             
+          <div class="left_div"></div>
+          <div class="middle_div">
+             <!-- Heading DIv Start -->
+             <div class="heading_div">
+                 <img src="./img/Brush.png">
+                 <h1 class="heading">Ash & Pichachu Arrive in <br> Poemon Universe</h1>
+             </div>
+              <!-- Heading DIv End -->
+
+              <!-- Peragraph Div Start  -->
+              <div class="flex_class">
+                       <div  class="left_pera_div">
+                         <div> 
+                                <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                </p>
+                                <p>
+                                <img src="./img./Image04.png" class="display_inline_two">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                , when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                                </p>
+                                
+                         </div>
+                          <div>
+                              <img src="./img/Image03.png">
+                              <img src="./img/Image02.png">
+                          </div>
+                       </div>
+                  <div class="right_pera_div">
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 
+                      </p>
+
+                        <div class="div_gap">
+                             <img src="./img./Image05.png" class="display_inline">
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.</p>
+                        </div>
+                         <div class="div_gap">
+                             <img src="./img./Image01.png" class="display_inline">
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.</p>
+                        </div>
+
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.</p>
+                  </div>
+              </div>
+
+              <!-- Peragraph Div End  -->
+          </div>
+          <div class="right_div"></div>
+
+         </div>
+      </section>
+
+
+   
+
+
+</body>
+
+</html>

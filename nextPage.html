@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Next Page</title>
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		li{
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		 .right_div{
+            width:5%;
+            height: 100vh;
+            background: url('./img/Left.png');
+        }
+        .main_div{
+        	height:100vh;
+        	width: 90%;
+        }
+        .left_div{
+            width:5%;
+            height:100vh;
+            background: url('./img/Left.png');
+        }
+        .flex_class{
+        	display: flex;
+        }
+        .logo{
+            display: block;
+            text-align: center;
+        }
+        .card{
+        	height: 100vh;
+            width: 25%;
+            padding: 0px 20px;
+/*            background: red;*/
+        }
+        .card h1{
+        	padding-top: 40px;
+        	padding-bottom:20px ;
+        	font-size:40px;
+        	color: #257BC4;
+        }
+        .card p{
+        	font-size: 20px;
+        	padding-bottom: 60px;
+        }
+        .picture{
+        	height: 100vh;
+            width:45%;
+            padding-top: 40px;
+        }
+        .power{
+        	height: 100vh;
+            width: 30%;
+        }
+        .ability_box{
+        	border:3px solid #F87265;
+        	height: 250px;
+        	width: 300px;
+        	justify-content: center	;
+        }
+        .ability_box h1{
+        	font-size: 20px;
+        	padding-bottom: 10px;
+        }
+        .ability_box p{
+        	font-size: 14px;
+        	padding-bottom: 0px;
+        }
+        .take_space{
+        	padding-right: 30%;
+            padding-left: 13%;
+        }
+        .head_points{
+        	font-size: 32px;
+        	padding:20px 0 ;
+        }
+        .btn{
+        	padding:10px 15px ;
+        	color:white;
+        	font-size: 14px;
+        	border:none;
+        	border-radius: 5px;
+        }
+        .btn_grass{
+        	background: #9BCC50;
+        }
+        .btn_position{
+        	background: #B97FC9;
+        }
+        .btn_fire{
+        	background: #FC7C23;
+        }
+        .btn_psychic{
+        	background: #F366B9;
+        }
+        .btn_flying{
+        	background: #BDBDBD;
+        }
+        .btn_ice{
+        	background: #3DC7EF;
+        }
+        .margin{
+			height: 4px;
+			width: 167px;
+			background: #3DC7EF;
+        }
+        .margin_two{
+			height: 4px;
+			width: 97px;
+			background: #D9D9D9;
+        }
+        .line_gap{
+        	padding-bottom: 10px;
+        }
+        .margin_attack{
+        	height: 4px;
+		    width: 237px;
+		    background: #3DC7EF;
+        }
+        .margin_attack_two{
+			height: 4px;
+		    width: 32px;
+		    background: #D9D9D9;
+        }
+        .margin_special{
+        	height: 4px;
+			width: 67px;
+			background: #3DC7EF;
+        }
+        .margin_special_attack{
+        	height: 4px;
+			width: 204px;
+			background: #D9D9D9;
+        }
+        .home{
+        	height: 50px;
+        	width: 250px;
+        	background: #FFCB05;
+        	border: 4px solid #2B73B9;
+        	margin: 0 auto;
+        	text-align: center;
+        	color: White;
+        }
+        .home:hover{
+        	cursor: pointer;
+        }
+        .home h1{
+/*        	margin-top: 20px;*/
+        }
+
+	</style>
+</head>
+
+<body>
+
+	<div class="flex_class">
+		<div class="left_div"></div>
+		<div class="main_div">
+			<section class="header">
+				 <div class="logo">
+               <img src="./img/Logo.png">
+        </div>
+			</section>
+
+			<section class="flex_class">
+				<div class="card">
+					<h1>Balbasur #001</h1>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<div class="ability_box">
+							<div class="flex_class">
+								<div class="take_space">
+									<h1>Height</h1>
+									<p>2'40"</p>
+							   </div>
+								<div>
+									<h1>Category</h1>
+									<p>Seed</p>
+								</div>
+							</div>
+						 <div class="flex_class">
+								<div class="take_space">
+									<h1>Weight</h1>
+									<p>15.2 lbs</p>
+								</div>
+								<div>
+									<h1>Abilities</h1>
+									<p>Over Grow <br> Blaze</p>
+								</div>
+						</div> 
+					</div>
+
+				</div>
+				<div class="picture">
+					<img src="./img/center_pic.PNG">
+				</div>
+				<div class="power">
+					<p class="head_points">Type</p>
+					<button class="btn btn_grass">Grass</button>
+					<button class="btn btn_position">Positon</button>
+
+					<p class="head_points">Weakness</p>
+					<button class="btn btn_fire">Fire</button>
+					<button class="btn btn_psychic">Psychic</button>
+					<button class="btn btn_flying">Flying</button>
+					<button class="btn btn_ice">Ice</button>
+
+					<p class="head_points">Stats</p>
+					<h4>HP</h4>
+					<div class="flex_class line_gap">
+						<div class="margin"></div>
+					    <div class="margin_two"></div>
+
+					</div>
+					<h4>Attack</h4>
+					<div class="flex_class line_gap">
+						<div class="margin_attack"></div>
+					    <div class="margin_attack_two"></div>
+
+					</div>
+					<h4>Defence</h4>
+					<div class="flex_class line_gap">
+						<div class="margin"></div>
+					    <div class="margin_two"></div>
+
+					</div>
+					<h4>Special Attack</h4>
+					<div class="flex_class line_gap">
+						<div class="margin_special"></div>
+					    <div class="margin_special_attack"></div>
+
+					</div>
+					<h4>Special Defence</h4>
+					<div class="flex_class line_gap">
+						<div class="margin_attack"></div>
+					    <div class="margin_attack_two"></div>
+
+					</div>
+					<h4>Speed</h4>
+					<div class="flex_class line_gap">
+						<div class="margin_special"></div>
+					    <div class="margin_special_attack"></div>
+
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="right_div">
+		</div>
+	</div>
+
+    <a href="./main.html">
+    	<div class="home">
+    	<h3>Back to Homepage</h1>
+    </div>
+    </a>
+
+</body>
+</html>
